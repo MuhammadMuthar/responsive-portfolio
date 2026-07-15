@@ -9,3 +9,7 @@ A responsive website built using HTML5 and CSS3.
 - Semantic HTML5
 - Pure CSS
 - Git & Github workflow
+
+## Author
+
+Muhammad Muthar
