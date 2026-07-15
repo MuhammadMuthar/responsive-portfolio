@@ -1,3 +1,7 @@
+/* ===================================
+   Tablet
+=================================== */
+
 @media (max-width:768px){
 
     nav{
@@ -6,11 +10,11 @@
 
         justify-content:center;
 
-        gap:1rem;
+        gap:var(--space-sm);
 
         height:auto;
 
-        padding:1rem 0;
+        padding:var(--space-sm) 0;
 
     }
 
@@ -20,19 +24,17 @@
 
         justify-content:center;
 
-        gap:1rem;
+        gap:var(--space-sm);
 
     }
-
-}
-
-@media (max-width:768px){
 
     .hero-container{
 
         flex-direction:column-reverse;
 
         text-align:center;
+
+        gap:var(--space-lg);
 
     }
 
@@ -46,11 +48,57 @@
 
         justify-content:center;
 
+        flex-wrap:wrap;
+
     }
+
+    .social-links{
+
+        justify-content:center;
+
+    }
+
+    .about-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .about-content{
+    text-align:center;
+    }      
+
+    .about-list{
+        grid-template-columns:1fr;
+    }
+
+}
+
+/* ===================================
+   Mobile
+=================================== */
+
+@media (max-width:480px){
 
     .hero-content h1{
 
-        font-size:3rem;
+        font-size:2.5rem;
+
+    }
+
+    .hero-content h2{
+
+        font-size:1.5rem;
+
+    }
+
+    .hero-image img{
+    width:min(280px,80%);
+    }
+
+    .projects-grid{
+
+        grid-template-columns:1fr;
 
     }
 

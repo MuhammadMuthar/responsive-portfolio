@@ -1,13 +1,14 @@
 .container{
 
-    width:min(90%,1200px);
+    width:min(90%,var(--max-width));
+
     margin-inline:auto;
 
 }
 
 .section{
 
-    padding:6rem 0;
+    padding:var(--space-xl) 0;
 
 }
 
@@ -15,8 +16,20 @@
 
     display:inline-block;
 
-    padding:1rem 2rem;
+    padding:var(--space-sm) var(--space-md);
 
-    border-radius:10px;
+    border-radius:var(--radius-md);
+
+    font-weight:var(--fw-semibold);
+
+    transition:var(--transition);
+
+    cursor:pointer;
+
+    text-decoration:none;
+
+    align-items: center;
+
+    justify-content: center;
 
 }
