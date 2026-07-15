@@ -1,18 +1,24 @@
 :root{
 
     --primary:#2563eb;
+    --primary-dark:#1d4ed8;
+
     --secondary:#0f172a;
 
     --background:#f8fafc;
+
     --white:#ffffff;
 
-    --text:#334155;
+    --text:#475569;
+
     --heading:#0f172a;
 
-    --max-width:1200px;
+    --shadow:0 10px 30px rgba(0,0,0,.08);
 
     --radius:12px;
 
-    --transition:0.3s ease;
+    --transition:.3s ease;
+
+    --max-width:1200px;
 
 }
