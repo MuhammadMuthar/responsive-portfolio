@@ -85,6 +85,8 @@ nav{
 
 #hero{
 
+    background:#F7F4F2;
+
     min-height:90vh;
 
     display:flex;
@@ -141,7 +143,7 @@ nav{
 
     min-height:90vh;
 
-    gap:4rem;
+    gap:7rem;
 
 }
 
@@ -153,11 +155,33 @@ nav{
 
 .hero-image{
 
+    position: relative;
+
     flex:1;
 
     display:flex;
 
     justify-content:center;
+
+}
+
+.hero-image::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:430px;
+
+    height:430px;
+
+    background:#7A1F32;
+
+    opacity:.08;
+
+    border-radius:50%;
+
+    z-index:-1;
 
 }
 
@@ -230,11 +254,11 @@ nav{
 }
 
 .btn-secondary{
-
-    border:2px solid var(--primary);
+    background:transparent;
 
     color:var(--primary);
 
+    border:2px solid var(--primary);
 }
 
 .btn-secondary:hover{
@@ -270,5 +294,67 @@ nav{
     font-weight:600;
 
     color:var(--primary);
+
+}
+
+.about{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:5rem;
+
+    align-items:center;
+
+}
+
+.about h2{
+
+    font-size:2.5rem;
+
+    margin-bottom:2rem;
+
+}
+
+.about p{
+
+    margin-bottom:1rem;
+
+}
+
+.skills-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+    gap:2rem;
+
+    margin-top:3rem;
+
+}
+
+.skill-card{
+
+    background:white;
+
+    padding:2rem;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.skill-card:hover{
+
+    transform:translateY(-8px);
 
 }

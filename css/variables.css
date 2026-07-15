@@ -1,17 +1,18 @@
 :root{
 
-    --primary:#2563eb;
-    --primary-dark:#1d4ed8;
+    --primary:#7A1F32;
 
-    --secondary:#0f172a;
+    --primary-dark:#5E1726;
 
-    --background:#f8fafc;
+    --secondary:#1B1B1F;
 
-    --white:#ffffff;
+    --background:#F7F4F2;
 
-    --text:#475569;
+    --white:#FFFFFF;
 
-    --heading:#0f172a;
+    --heading:#1B1B1F;
+
+    --text:#5E5E68;
 
     --shadow:0 10px 30px rgba(0,0,0,.08);
 
